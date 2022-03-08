@@ -1,8 +1,8 @@
 # Using JArchitect to analyze 
 
-## *Realtime* Instruments Project.
+## *RealTime* Instruments Project.
 
- - Realtime, as one of the leading providers of financial indexes, 
+ - RealTime, as one of the leading providers of financial indexes, 
  consumes and uses real-time trading prices of tens of thousands of 
  financial instruments from more than 100 exchanges over the world.
 
@@ -139,7 +139,7 @@ QUERIES AND RULES
 	* [JMeter Performance Test Tool](https://jmeter.apache.org/download_jmeter.cgi)
 
 * 3.b Under the folder: **"Jmeter_Performance"**, 
-	* Open the JMeter project **"Realtime_Tests_RestController.jmx"**
+	* Open the JMeter project **"RealTime_Tests_RestController.jmx"**
 
 * 3.c Executing some tests
 	* The JMeter project has a file atached with 5000 (**Instruments-for-Tests**) with random prices
@@ -170,7 +170,7 @@ QUERIES AND RULES
 			```
 	* Generating JMeter HTML Reports:
 		* Execute the first script on the file **Scripts-JMeter.md**
-		* After the script finishes open the **index.html** under the folder **JMeter-Reports-Realtime**
+		* After the script finishes open the **index.html** under the folder **JMeter-Reports-RealTime**
 		* JMeter result of the tests **throughput:**
 		![alt text](Jmeter_Performance/JMeter.PNG "JMeter throughput")
 		
