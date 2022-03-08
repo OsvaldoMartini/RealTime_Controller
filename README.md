@@ -1,13 +1,9 @@
 # Using JArchitect to analyze 
 
-## *RealTime* Instruments Project.
-
- - RealTime, as one of the leading providers of financial indexes, 
- consumes and uses real-time trading prices of tens of thousands of 
- financial instruments from more than 100 exchanges over the world.
+## *RealTime* Tests Project.
 
  - In order to ensure integrity of our index calculation and proper input data, 
- our operations team needs a restful API to monitor the incoming prices. 
+ our operations team needs a restful API to monitor the incoming instruments. 
  
  The main use case for that API is to provide real-time price statistics from 
  the last 60 seconds (sliding time interval).
@@ -83,22 +79,6 @@ The response is the same as for the previous endpoint but with instrument specif
 * GET /statistics/{instrument_identifier} should execute in constant time
 * The APIs have to be safe against concurrent requests
 * The APIs should be able to deal with time discrepancy, which means, at any point of time, we could receive a tick which have a timestamp in the past
-
-JArchitect First Analisys
-
-JArchitect Report
-
-[![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/NDepend_Report.png)](http://www.wservices.co.uk/geolocalization/NDependOut/NDependReport.html)
-
-DASHBOARD:
-
-![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/Dashboard_first_analisys.PNG)
-
-QUERIES AND RULES
-
-![logo](https://github.com/OsvaldoMartini/JArchitect-RealTime-App-Analysis/blob/master/Queries_and_Rules.PNG)
-
-
 
 # Points to be Improved after JArchitect Analisys
  
